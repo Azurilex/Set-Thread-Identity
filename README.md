@@ -1,4 +1,4 @@
-# Preface
+## Preface
 This small bit of code allows you to set the identity of every existing thread and every thread that is created (using lua_newthread) from then on. Basically, it allows every script that is executed to have it's own environment.
 #### Code:
 ```c++
