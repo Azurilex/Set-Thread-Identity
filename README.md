@@ -4,10 +4,10 @@ This small bit of code allows you to set the identity of every existing thread a
 ```c++
 //rbx_L would be your luastate thread
 //identity would be the identity you want to elevate to
-void setThreadIdentity(INT rbx_L, unsigned __int8 identity)
+static void setThreadIdentity(INT rbx_L, unsigned __int8 identity)
 {
-    DWORD* loc1 = (DWORD *)(rbx_L - 32);
-    *loc1 ^= (identity ^ (unsigned __int8)*loc1) & 0x1F;
+	DWORD* loc1 = reinterpret_cast<DWORD *>(rbx_L - 32);
+	*loc1 ^= (identity ^ static_cast<unsigned __int8>(*loc1)) & 0x1F; //OPCODE POP
 }
 ```
 #### Information
