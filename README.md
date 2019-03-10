@@ -11,7 +11,7 @@ void setThreadIdentity(INT rbx_L, unsigned __int8 identity)
 }
 ```
 #### Information
-This method requires you to already have an existing thread in ordet to be used as intended. This method is also found in Roblox's setThreadIdentityAndSandbox function, which if you were wondering can be found inside the only xref for the string "Unable to create a new thread for %s".
+This method requires you to already have an existing thread in order to be used as intended. This method is also found in Roblox's setThreadIdentityAndSandbox function, which if you were wondering can be found inside the only xref for the string "Unable to create a new thread for %s".
 
 #### Example Usage
 ```c++
