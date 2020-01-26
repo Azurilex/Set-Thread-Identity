@@ -4,7 +4,7 @@ This small bit of code allows you to set the identity of every existing thread a
 4/09/2019:
 Recently, Roblox completely changed they're getCurrentIdentity function, which was where most people used to grab identity flag to elevate the context on the current luastate thread. However, the code below can be used to detour that patch quite easily and requires no updating unless for some reason Roblox changed their offsets or method in general. Check "Example Usage" in order to achieve what I'm talking about.
 
-01/26/2019:
+01/26/2020:
 I haven't been paying much attention to the exploiting scene, I have **NO** idea if this code still works.
 #### Code:
 ```c++
