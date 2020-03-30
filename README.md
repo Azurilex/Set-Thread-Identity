@@ -8,7 +8,7 @@ Recently, Roblox completely changed they're getCurrentIdentity function, which w
 I haven't been paying much attention to the exploiting scene, I have **NO** idea if this code still works.
 
 3/29/2020:
-This code is no viable. I'll update this as soon as I find a new method.
+This code is no longer viable. I'll update this as soon as I find a new method.
 #### Code:
 ```c++
 //rbx_L would be your luastate thread
