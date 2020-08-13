@@ -9,6 +9,9 @@ I haven't been paying much attention to the exploiting scene, I have **NO** idea
 
 3/29/2020:
 This code is no longer viable. I'll update this as soon as I find a new method.
+
+08/13/2020:
+Completely broken. Another method exists, go look for it.
 #### Code:
 ```c++
 //rbx_L would be your luastate thread
